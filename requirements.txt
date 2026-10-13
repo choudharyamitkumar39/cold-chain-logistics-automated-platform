@@ -1,0 +1,31 @@
+# Python Dependencies for Cold-Chain Logistics FDE Platform
+# Core LangChain & LangGraph
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langgraph>=0.2.20
+langgraph-checkpoint>=2.0.0
+
+# Gemini & AI Providers
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
+langchain-openai>=0.2.0
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.0
+
+# Vector Database
+pinecone>=5.0.0
+langchain-pinecone>=0.2.0
+
+# Database & Data Engineering
+SQLAlchemy>=2.0.30
+pyodbc>=5.1.0
+pandas>=2.2.0
+openpyxl>=3.1.5
+pypdf>=5.0.0
+
+# Web Application & Utilities
+streamlit>=1.39.0
+python-dotenv>=1.0.1
+pydantic-settings>=2.5.0
+requests>=2.32.0
