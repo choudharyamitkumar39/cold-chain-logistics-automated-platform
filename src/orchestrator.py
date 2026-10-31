@@ -33,7 +33,7 @@ AGENT_LLM_SETTING = os.getenv("AGENT_LLM", "GEMINI").strip().upper()
 
 if AGENT_LLM_SETTING == "GEMINI":
     google_key = os.getenv("GOOGLE_API_KEY")
-    gemini_model = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+    gemini_model = os.getenv("GEMINI_MODEL", "gemini-flash-lite-latest")
     print(f"✨ Brain Mode: Utilizing Google Gemini Cloud Reasoner ({gemini_model})...")
     from langchain_google_genai import ChatGoogleGenerativeAI
     llm = ChatGoogleGenerativeAI(

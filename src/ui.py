@@ -113,7 +113,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.caption(f"Session Token: `{st.session_state.thread_id[:8]}...`")
-    st.markdown(f"**LLM Reasoner:** `{os.getenv('AGENT_LLM', 'GEMINI')}` ({os.getenv('GEMINI_MODEL', 'gemini-3.8-flash')})")
+    st.markdown(f"**LLM Reasoner:** `{os.getenv('AGENT_LLM', 'GEMINI')}` ({os.getenv('GEMINI_MODEL', 'gemini-flash-lite-latest')})")
     st.markdown(f"**Vector Store:** Pinecone (`{os.getenv('EMBEDDINGS_MODEL', 'GEMINI')}`)")
     st.markdown(f"**Database:** MSSQL on `{db_host}:{db_port}`")
     
